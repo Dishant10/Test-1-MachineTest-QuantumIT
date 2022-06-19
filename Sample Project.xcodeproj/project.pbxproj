@@ -11,6 +11,12 @@
 		3335F183285C6DA000AE247B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3335F182285C6DA000AE247B /* ContentView.swift */; };
 		3335F185285C6DA400AE247B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3335F184285C6DA400AE247B /* Assets.xcassets */; };
 		3335F188285C6DA400AE247B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3335F187285C6DA400AE247B /* Preview Assets.xcassets */; };
+		3335F18F285C8D3800AE247B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3335F18E285C8D3800AE247B /* Item.swift */; };
+		3335F191285CAC1500AE247B /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3335F190285CAC1500AE247B /* ButtonType.swift */; };
+		3335F193285CB22700AE247B /* ShopCard2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3335F192285CB22700AE247B /* ShopCard2.swift */; };
+		3335F197285CB4CB00AE247B /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3335F196285CB4CB00AE247B /* CartView.swift */; };
+		3335F199285CB4F200AE247B /* ItemCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3335F198285CB4F200AE247B /* ItemCardView.swift */; };
+		3335F19B285CB69500AE247B /* ShopCard1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3335F19A285CB69500AE247B /* ShopCard1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		3335F182285C6DA000AE247B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3335F184285C6DA400AE247B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3335F187285C6DA400AE247B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3335F18E285C8D3800AE247B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3335F190285CAC1500AE247B /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		3335F192285CB22700AE247B /* ShopCard2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCard2.swift; sourceTree = "<group>"; };
+		3335F196285CB4CB00AE247B /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		3335F198285CB4F200AE247B /* ItemCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCardView.swift; sourceTree = "<group>"; };
+		3335F19A285CB69500AE247B /* ShopCard1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCard1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +65,14 @@
 			children = (
 				3335F180285C6DA000AE247B /* Sample_ProjectApp.swift */,
 				3335F182285C6DA000AE247B /* ContentView.swift */,
+				3335F198285CB4F200AE247B /* ItemCardView.swift */,
+				3335F18E285C8D3800AE247B /* Item.swift */,
+				3335F190285CAC1500AE247B /* ButtonType.swift */,
+				3335F196285CB4CB00AE247B /* CartView.swift */,
 				3335F184285C6DA400AE247B /* Assets.xcassets */,
 				3335F186285C6DA400AE247B /* Preview Content */,
+				3335F192285CB22700AE247B /* ShopCard2.swift */,
+				3335F19A285CB69500AE247B /* ShopCard1.swift */,
 			);
 			path = "Sample Project";
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3335F197285CB4CB00AE247B /* CartView.swift in Sources */,
 				3335F183285C6DA000AE247B /* ContentView.swift in Sources */,
+				3335F193285CB22700AE247B /* ShopCard2.swift in Sources */,
+				3335F191285CAC1500AE247B /* ButtonType.swift in Sources */,
+				3335F18F285C8D3800AE247B /* Item.swift in Sources */,
+				3335F199285CB4F200AE247B /* ItemCardView.swift in Sources */,
 				3335F181285C6DA000AE247B /* Sample_ProjectApp.swift in Sources */,
+				3335F19B285CB69500AE247B /* ShopCard1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
